@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Voxelit - Build 3D Voxel Scenes in Your Browser</title>
+    <meta name="title" content="Voxelit - Build 3D Voxel Scenes in Your Browser" />
+    <meta name="description" content="Create stunning 3D voxel models and scenes with an intuitive web-based editor. Build with blocks, apply procedural shaders, add lighting, and export your creations as React code or HTML. No installation required." />
+    <meta name="keywords" content="voxel editor, 3D modeling, web-based 3D, three.js, voxel art, 3D scene builder, procedural shaders, React 3D, browser 3D editor, voxel builder" />
+    <meta name="author" content="Scott Sun" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://vx.scottsun.io" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vx.scottsun.io" />
+    <meta property="og:title" content="Voxelit - Build 3D Voxel Scenes in Your Browser" />
+    <meta property="og:description" content="Create stunning 3D voxel models and scenes with an intuitive web-based editor. Build with blocks, apply procedural shaders, add lighting, and export your creations as React code or HTML." />
+    <meta property="og:image" content="https://vx.scottsun.io/og_image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://vx.scottsun.io" />
+    <meta property="twitter:title" content="Voxelit - Build 3D Voxel Scenes in Your Browser" />
+    <meta property="twitter:description" content="Create stunning 3D voxel models and scenes with an intuitive web-based editor. Build with blocks, apply procedural shaders, add lighting, and export your creations as React code or HTML." />
+    <meta property="twitter:image" content="https://vx.scottsun.io/og_image.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/index-qkfW-r4l.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-p_TF5Jr1.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      (function() {
+        var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) 
+          || (navigator.maxTouchPoints > 0 && window.innerWidth < 1024);
+        
+        if (isMobile) {
+          alert('Voxelit is designed for desktop browsers only. Please visit on a desktop computer for the best experience.');
+          document.body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100vh;font-family:system-ui,sans-serif;text-align:center;padding:20px;background:#0a0a0a;color:#fff;"><div><h1 style="margin-bottom:16px;">Desktop Only</h1><p style="color:#888;">Voxelit requires a desktop browser to function properly.<br>Please visit on a computer.</p></div></div>';
+        }
+      })();
+    </script>
+  </body>
+</html>
